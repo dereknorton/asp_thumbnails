@@ -11,11 +11,14 @@ Prerequisits:
 Sample Usage: 
 
   ```
-  //Sample Usage.
+  //Include the file
   require_once('get_asp_thumbnail.php');
+  
+  //Specify the URL to the video and pass it to the function.
   $videoURL = "http://search.alexanderstreet.com/view/work/764265"; //This is the URL of the ASP video. 
   $thumbnailURL = get_asp_thumb_link($videoURL);
   
+  //Display the image. 
   echo "<img src='$thumbnailURL' alt='Video Thumbnail' />";
   
   //Update your database with the new link.
