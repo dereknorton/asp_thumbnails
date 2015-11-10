@@ -1,4 +1,4 @@
-# asp_thumbnails
+# Alexander Street Press Video Thumbnails
 
 Code to pull thumbnail links for Alexander Street Press streaming videos.
 
