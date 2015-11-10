@@ -6,7 +6,7 @@ Prerequisits:
   * A MySQL database with a varchar(255) field to store the thumbnail link in.
   * PHP 5
   * CURL (debian users: "sudo apt-get install php5-curl" then restart apache2 with: "sudo /etc/init.d/apache2 restart")
-  * 
+ 
 
 Sample Usage: 
 
