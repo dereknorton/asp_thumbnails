@@ -17,5 +17,11 @@ Sample Usage:
   $thumbnailURL = get_asp_thumb_link($videoURL);
   
   echo "<img src='$thumbnailURL' alt='Video Thumbnail' />";
+  
+  //Update your database with the new link.
+  require_once('database_connetion_file.php'); //This is your mysqli connection ($DBCONNECTION)
+  $SQL = "UPDATE `alexander_street_press_videos` SET `thumbnail_link` = '$thumbnailURL' WHERE `video_identifier` = '$videoID'";
+  $query = mysqli_query($DBCONNECTION,$SQL);
+  
 ```
 
